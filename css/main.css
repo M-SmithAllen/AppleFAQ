@@ -1,0 +1,145 @@
+/***********************************
+	CSS for each page 
+************************************/
+.main_body {
+    display: inline-block;
+    margin: 98px;
+    padding-left: 10%;
+}
+.top_column {
+	padding: 26px 131px 34px;
+    padding-left: 37px;
+    height: 344px;
+    width: 380px;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.centercolumn {
+	width: 1000px;
+    font-size: 1.8em;
+}
+.main_section {
+    width: 605px;
+	text-align: justify;
+}
+.section {
+    height: auto;
+    width: auto;
+}
+
+/***********************************
+	CSS for basic_ts.html
+************************************/
+
+/* recharge, recharge_img */
+.recharge {
+    height: 450px;
+    width: 604px;
+    text-align: justify;
+}
+#recharge_img {
+    float: left;
+    padding: 10px;
+}
+
+/* restart, restart_img */
+#restart_img {
+	float: right;
+    padding: 10px;
+}
+.restart {
+	height: 485px;
+    width: 604px;
+    text-align: justify;
+}
+
+/* troubleshooting, troubleshooting_img */
+.troubleshooting {
+	height: 465px;
+    width: 604px;
+    text-align: justify;
+}
+#troubleshooting_img {
+	float: left;
+    padding: 10px;
+    padding-right: 39px;
+}
+
+
+/***********************************
+	CSS for restore.html
+************************************/
+
+/* wifi */
+#wifi {
+	padding: 35px;
+}
+
+/* pc_update */
+.pc_update {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+/* restore */
+#restore {
+	padding: 25px;
+}
+
+
+/***********************************
+	CSS for footer
+************************************/
+.left_footer {
+	padding: 8% 17% 6%;
+    height: 245px;
+    width: 541px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 600;
+	list-style: none;
+}
+.middle_footer {
+	padding: 8% 8% 13%;
+    height: 245px;
+    width: 541px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.right_footer {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/***********************************
+	CSS for @media
+************************************/
+@media (min-width: 300px) {
+	[class*="col-"] {
+        width: 100%;
+    }
+	nav.navbar.navbar-default.navbar-fixed-top {
+    width: 100%;
+	}
+}
+@media (min-width: 550px) {
+	.main_body {
+		display: inline-block;
+		margin-top: 100px;
+		padding: 0px;
+	}
+}
+
+@media (min-width: 750px) {
+	
+}
+
+
+@media (min-width: 1000px) {
+	
+}
