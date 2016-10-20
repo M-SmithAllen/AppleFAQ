@@ -8,6 +8,7 @@
 	<link href="css/main.css" rel="stylesheet">
 	<link href="js/main.js" rel="javascript">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/f1a4de6791.css" media="all">
 </head>
 
 <body>
@@ -31,9 +32,9 @@
 						<ul class="dropdown-menu">
 							<li><a href="restore.html#wifi">Updating thru Wi-Fi</a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#pc_update">Updating with computer</a></li>
+							<li><a href="restore.html#pc_update">Updating with computer</a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#restore">Restoring</a></li>
+							<li><a href="restore.html#restore">Restoring</a></li>
 						</ul> <!-- dropdown-menu -->
 					</li> <!-- dropdown -->
 				</ul> <!-- nav navbar-nav navbar-right -->
@@ -127,6 +128,7 @@
 	</div><!-- main_body -->
 	
 	<hr>
+	
 	<div id="footer">
 		<div class="row">
 			<div class="col-md-4">
@@ -134,29 +136,39 @@
 					Support links<br>
 					<a href="http://apple.com/support/">Apple's Support</a><br>
 					<a href="http://apple.com/itunes/">Apple's iTunes</a><br>
-					<p> To <a href="mailto:michael.smith101979@gmail.com">contact</a> the author.</p>
-					
+					<a href="http://www.apple.com/support/applecare/">AppleCare</a>
 				</div> <!-- bottom_column -->
 			</div>
 			
 			<div class="col-md-4">
 				<div class="middle_footer">
-					Interested in continuing your Education?<br>
-					<a href="http://phoenix.edu">University of Phoenix</a>
+					Follow me on:
+					<div id="myToolTip"></div>
+					<ul class="list-unstyled">
+						<li id="listed">
+							<a class="hoverable" title="LinkedIn" href="https://www.linkedin.com/in/michaelsmith101979" target="_blank">
+								<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li id="listed">
+							<a class="hoverable" title="GitHub" href="https://github.com/bobo6453" target="_blank">
+								<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li id="listed">
+							<a class="hoverable" title="Twitter" href="https://twitter.com/bwninja79" target="_blank">
+								<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
-			</div class="col-md-4">
-			<div></div>
+			</div>
 		</div>
-		
-		<div class="right_footer">
+		<div class="bottom_footer">
 			Content copyright
-			<script type="text/javascript">
-			document.write(new Date().getFullYear());
-			</script>
-			Michael Smith All rights reserved.<br />
-			Images provided by Apple Corp.
+			<script type="text/javascript">document.write(new Date().getFullYear());</script>
+			Michael Smith All rights reserved.<br />Images provided by Apple Corp.
 		</div>
-		
 	</div>
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<!--Does not work with dropdown this way and needs a workaround/research
